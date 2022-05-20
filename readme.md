@@ -43,7 +43,10 @@ After it's complete, `vendor/laravel/homestead` will be a git checkout and can b
 
 <p>adding homestead box manualy</p>
 <p>this file beside homestead.box and run the following command </p>
-```vagrant box add --help```
+```
+vagrant box add --help
+```
+
 
 ```
 {
@@ -56,4 +59,8 @@ After it's complete, `vendor/laravel/homestead` will be a git checkout and can b
         }]
     }]
 }
+```
+save as metadata.json then run 
+```
+vagrant box add metadata.json
 ```
