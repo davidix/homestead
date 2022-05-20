@@ -41,9 +41,9 @@ $ mkdir homestead && \
 
 After it's complete, `vendor/laravel/homestead` will be a git checkout and can be used normally.
 
-adding homestead box manualy 
-put this file beside homestead.box and run the following command 
-vagrant box add --help
+<p>adding homestead box manualy</p>
+<p>this file beside homestead.box and run the following command </p>
+```vagrant box add --help```
 
 ```
 {
