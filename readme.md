@@ -40,3 +40,20 @@ $ mkdir homestead && \
 ```
 
 After it's complete, `vendor/laravel/homestead` will be a git checkout and can be used normally.
+
+adding homestead box manualy 
+put this file beside homestead.box and run the following command 
+vagrant box add --help
+
+```
+{
+    "name": "laravel/homestead",
+    "versions": [{
+        "version": "12.0.0",
+        "providers": [{
+            "name": "virtualbox",
+            "url": "file:///d:/homestead.box"
+        }]
+    }]
+}
+```
